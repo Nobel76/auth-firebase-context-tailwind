@@ -13,10 +13,13 @@ const Login = () => {
      const email = form.email.value;
      const password = form.password.value;
      console.log(email, password);
+     
      signIn(email, password)
      .then(result =>{
-      const logged = result.user;
-      console.log(logged)
+      const loggedUser = result.user;
+      console.log(loggedUser);
+      form.reset();
+
      })
      .catch(error =>{
       console.log(error)
