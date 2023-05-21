@@ -13,5 +13,11 @@
  * *****
  * 1.break down the access the create user function
  * 2.auth provider will have auth and pass email and password from register 
+
+***********
+1.private route
+
+
+
 */
 
